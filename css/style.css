@@ -1,0 +1,1122 @@
+body, html {
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+	overflow-x:hidden;
+}
+html {
+    line-height: 1.15;
+}
+
+.navbar-default{
+  transition:500ms ease;
+ background:rgb(22, 82, 240);
+}
+.navbar-default.scrolled {
+	 background:#ffff;
+	 border:1px solid rgba(201,200,196,0.5);
+}
+.navbar-default.scrolled .nav li a{
+ 
+  color:#050f19;
+}
+.navbar-default.scrolled .nav li a:hover{
+ 
+  color:#69716A;
+}
+.navbar-default.scrolled svg path{
+	fill: rgb(22, 82, 240);
+}
+.navbar-default.scrolled .nav .up a{
+	color: rgb(255, 255, 255);
+}
+.navbar-default.scrolled .nav .sign{
+	 border-radius: 4px;
+    background: rgb(5, 177, 105);
+}
+.navbar-default.scrolled .nav .sign a{
+	color: rgb(255, 255, 255);
+}
+.navbar-default.scrolled .nav .sign:hover{
+	background: rgba(15, 150, 105,1);
+	color: rgb(255, 255, 255);
+    transition: 0.2s;
+	border-radius: 4px;
+	
+	
+	
+}
+.navbar-default.scrolled .dropdown-toggle:focus{ 
+  background-color:transparent;
+ color:#050f19;
+}
+.navbar-default.scrolled .dropdown-toggle[aria-expanded="true"] {
+  background:#FFF !important;
+  color:#69716A !important;
+}
+ 
+
+ 
+.navbar-default.scrolled .nav .sign a:hover{
+	color: rgb(255, 255, 255);
+}
+.navbar{
+	border:none;
+	padding:13px;
+	padding-left:100px;
+	padding-right:100px;
+    border-radius:0;
+	
+	
+	z-index:100000;
+}
+
+.navbar .navbar-nav li{
+	
+	padding-left:10px;
+}
+.navbar .navbar-nav li a{
+	color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+	font-weight:bold;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav li a:hover{
+	color:rgba(255,255,255,0.8);
+}
+.navbar .navbar-right li a{
+    text-decoration:none;
+	color:white;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.navbar .navbar-nav .up{
+	margin-top:11px;
+    border-radius: 3px;
+    background: rgb(5, 177, 105);
+}
+.navbar .navbar-nav .up a{
+	 color: rgb(255, 255, 255);
+	 text-align:center;
+	 padding:4px;
+	 padding-right:13px;
+}
+.navbar .navbar-nav .up a:hover{
+	color:rgb(255,255,255);
+}
+.navbar .navbar-right li a:hover{
+   opacity: 0.8;
+	transition: 0.2s;
+}
+
+.navbar .navbar-right .sign {
+	border:1px solid white;
+    transition: 0.2s;
+	border-radius: 4px;
+	margin-top:2px;
+	float:right;  
+}
+.navbar .navbar-right .log{
+    float:left;
+}
+.navbar .navbar-right .sign:hover{
+    transition: 0.2s;
+    background:white;
+}
+.navbar .navbar-right .sign a{
+    justify-content: center;
+	padding: 10px 10px;
+    transition:0.2s;
+	padding-right:20px;
+	
+}
+.navbar .navbar-right .sign a:hover{
+	color: rgb(38, 53, 67);
+}
+.dropdown-menu.columns-2 li{
+	list-style:none;
+	
+}
+.navbar .dropdown-menu.columns-2 {
+	min-width: 800px;
+	color:red;
+	margin-left:-331px;
+	background:white;
+	z-index:1000;
+	margin-top:13px;
+    
+}
+.navbar .last .dropdown-menu{
+	margin-top:13px;
+}
+ .dropdown-toggle:focus{ 
+  background-color:transparent;
+  color:white;
+}
+ .dropdown-toggle[aria-expanded="true"] {
+  background:#FFF !important;
+  color:white !important;
+}
+ .dropdown-toggle:active, .open .dropdown-toggle {
+        background:transparent !important; 
+        color:rgba(255,255,255,0.8) !important;
+    }
+  .navbar-nav li a:active {
+        background:transparent !important; 
+        color:rgba(255,255,255,0.8) !important;
+    }
+ 
+.navbar .dropdown-menu.columns-2 h4{
+	font-size:14px;
+	color:rgba(17,51,83,0.6);
+	margin-left:35px;
+	font-weight:bold;
+	
+}
+.navbar .dropdown-menu.columns-2 h3{
+	font-size:14px;
+	color:rgba(17,51,83,0.6);
+	font-weight:bold;
+	
+}
+.navbar .dropdown-menu.columns-2 hr{
+	border:1px solid rgba(210,205,205,0.3);
+	width:798px;
+	margin-top:100px;
+}
+.navbar .dropdown-menu.columns-2 h5{
+	font-size:16px;
+	color:rgba(17,51,83,0.6);
+	cursor:pointer;
+	padding-bottom:9px;
+	
+}
+.navbar .dropdown-menu.columns-2 li a{
+	text-decoration:none;
+	font-size:17px;
+	color: rgb(5, 15, 25);
+	line-height:2.5;
+}
+.dropdown-menu.columns-2 li a:hover{
+    color: rgb(5, 15, 25);
+}
+.under-write{
+	margin-left:60px;
+	margin-top:-15px;
+	font-size:15px;
+	color:#B8B1B1;
+	font-weight:normal;
+}
+.dropdown .dropdown-menu{
+	border-radius:8px;
+}
+.dropdown .dropdown-menu li a{
+	
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgb(5, 15, 25);
+	
+}
+.dropdown .dropdown-menu li a:hover{
+	background:none;
+	color: rgb(5, 15, 25);
+}
+
+
+.navbar-right .signn{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first{
+	background:rgb(22, 82, 240);
+	margin-top:-20px;
+	padding-top:30px;
+	line-height: 52px;
+	padding-bottom:260px;
+	margin-top:75px;
+	
+}
+.first h1{
+	font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+word-spacing:3px;
+    color: rgb(255, 255, 255);
+    font-size: 49px;
+    font-weight: 800;
+}
+.first p{
+  color: rgb(255, 255, 255);
+   
+    font-weight: 400;
+font-size: 17px;
+word-spacing:2px;
+    line-height: 35px;
+    margin: 24px 0px;
+}   
+
+.first .form-horizontal input {
+    margin-right: 10px;
+    
+	
+    -webkit-appearance: none;
+    font-family: Graphik, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(11, 52, 102);
+    flex: 1 1 0%;
+	width:100%;
+	height:75px;
+    padding: 16px 16px 13px;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+}
+.first .form-horizontal label{
+	position: relative;
+    width: auto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(5, 177, 105);
+    margin: 0px;
+    border-radius: 4px;
+    transition: all 80ms ease-in-out 0s;
+   height:75px;
+    padding: 24px;
+	font-weight:normal;
+	font-family: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 177, 105);
+    border-image: initial;
+	transition:0.2s
+	
+}
+.first .form-horizontal label:hover{
+	
+	background:#059F43;
+  border:2px solid #059F43;
+   border-width: 1px;
+   transition:0.2s;
+}
+
+
+
+
+.tab{
+	position:absolute;
+	margin-top:50px;
+	
+}
+.tab .table-responsive{
+	background:white;
+    box-shadow: rgba(17, 51, 83, 0.02) 0px 4px 12px 0px;
+	border-width: 1px;
+    border-style: solid;
+    border-color: rgb(236, 239, 241);
+    border-radius: 4px;
+}
+.tab .table-responsive table td{
+	padding:10px;
+	
+	
+}
+.tab .table-responsive .name{
+	font-size:14px;
+	color:rgba(17,51,83,0.6);
+}
+.tab .table-responsive span{
+	color:rgba(17,51,83,0.6);
+}
+.tab .table-responsive .td1{
+	padding-left:30px;
+}
+.tab .table-responsive .td2{
+	padding-top:22px;
+}
+.tab .table-responsive .td0{
+	padding-top:15px;
+}
+.tab .table-responsive .introductor{
+	padding-top:25px;
+	
+}
+.tab .table-responsive .one,.two,.three,.four{
+	font-size:18px;
+	cursor:pointer;
+}
+.tab .table-responsive .value1,.value2,.value3,.value4{
+	color:#DF5F67;
+	padding-top:22px;
+}
+.tab .table-responsive .value2{
+	
+	padding-top:22px;
+}
+.tab .table-responsive .value3{
+	
+	padding-top:22px;
+}
+.tab .table-responsive .value4{
+	
+	padding-top:22px;
+}
+.tab .table-responsive button{
+	background:rgb(5, 177, 105);
+	padding:12px 16px;
+	cursor: pointer;
+    font-size: 14px;
+	border:1px solid rgb(5, 177, 105);
+}
+.tab .table-responsive button:hover{
+	background:#059F43;
+	border:1px solid #059F43;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.second{
+	
+	padding-top:100px;
+}
+.second .row{
+	padding:70px;
+}
+.second .row h1{
+	font-size:32px;
+	color:#050F19;
+	
+}
+.second .row .ff{
+
+}
+.second .row p{
+	font-size:14px;
+	color:#050F19;
+}
+.second .row .btn-primary{
+	cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(22, 82, 240);
+    margin: 0px;
+    border-radius: 4px;
+    transition: all 80ms ease-in-out 0s;
+    padding: 12px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(22, 82, 240);
+    border-image: initial;
+}
+.second .row .btn-primary:hover{
+	background:rgb(14,14,232);
+}
+.second .row .list-group img{
+	margin-left:10px;
+}
+.second .row .list-group p{
+	float:right;
+	font-size: 16px;
+    
+    color: rgb(5, 177, 105);
+    font-weight: 500;
+	margin-top:10px;
+	
+}
+
+.second .row .list-group button{
+	font-size:22px;
+	color: rgb(5, 15, 25);
+	line-height: 2.5;
+	font-weight: 500;
+	border:none;
+	transition:0.5s;
+}
+.second .row .list-group button span{
+	font-size:18px;
+	margin-left:20px;
+	color:#8899AA;
+}
+.second .row .list-group button:hover{
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+	background:white;
+	border-radius:5px;
+	transition:0.5s
+}
+
+
+
+
+
+
+
+
+
+
+.third {
+	
+}
+
+.third .row{
+
+	padding-left:70px;
+	padding-right:70px;
+}
+.third .list-group button{
+	border:none;
+	cursor: -webkit-grab; cursor: grab;
+
+}
+.third .row h1{
+	font-size:40px;
+	color:#0F3256;
+}
+.third .row p{
+	font-size:16px;
+	color:#90A1B8;
+}
+.third .list-group  img{
+	margin-top:20px;
+	position:absolute;
+	box-shadow: rgba(218, 225, 233, 0.557) 0px 8px 16px;
+    border-radius: 50%;
+   z-index: 1;
+   box-sizing: border-box;
+	
+	
+	transition:0.5s
+}
+.third .list-group button span{
+	font-size:20px;
+	margin-left:70px;
+	margin-top:40px;
+	color:#000000;
+	font-weight: 500;
+		
+}
+.third .list-group button p{
+	margin-left:70px;
+	font-size:16px;
+	margin-top:15px;
+	line-height: 1.6;
+    color: rgb(131, 143, 160);
+  
+}
+.third .list-group button:hover{
+	background:none;
+}
+
+
+
+
+
+.furth .row{
+	padding-top:80px;
+}
+
+.furth h1{
+	
+	font-size:40px;
+	color:#0F3256;
+}
+.furth  p{
+	font-size:16px;
+	color:#90A1B8;
+}
+.furth .row .thumbnail{
+	border:none;
+	line-height:1.5;
+}
+.furth .row .thumbnail .caption h3{
+	margin-top:40px;
+}
+.furth .row .thumbnail .caption p{
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+.five{
+	background:rgb(22, 82, 240);
+	margin-top:80px;
+}
+.five .row {
+	
+}
+.five .row .thumbnail .caption h3{
+	font-size:56px;
+	color:white;
+	
+}
+.five .row .thumbnail{
+	border:none;
+	line-height:1.5;
+	background:none;
+}
+.five .row .thumbnail .caption p{
+	font-size:16px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+.six{
+	margin-top:80px;
+}
+.six h1{
+	
+	font-size:40px;
+	color:#0F3256;
+}
+.six  p{
+	font-size:16px;
+	color:#90A1B8;
+}
+.six .row .thumbnail{
+	border:none;
+	line-height:1.5;
+}
+.six .row .thumbnail .caption h3{
+	margin-top:40px;
+}
+.six .row .hr{
+	position:absolute;
+	width:140px;
+	color:red;
+	margin-left:280px;
+	margin-top:-110px;
+	z-index:1000;
+	border:1px solid rgba(186, 197, 212,0.2);
+	background-color: rgb(186, 197, 212);
+    flex: 1 1 0%;
+}
+
+
+
+
+
+
+
+
+
+
+.seven{
+	background-color: rgb(233, 246, 255);
+	margin-top:80px;
+}
+.seven .row{
+
+}
+.seven .row h1{
+	font-size:32px;
+	color:#050F19;
+	
+}
+.seven .row .ff{
+  padding-left:170px;
+  padding-top:40px;
+  
+}
+.seven .row p{
+	font-size:14px;
+	color:#050F19;
+}
+.seven .row .btn-primary{
+	cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(22, 82, 240);
+    margin: 0px;
+    border-radius: 4px;
+    transition: all 80ms ease-in-out 0s;
+    padding: 12px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(22, 82, 240);
+    border-image: initial;
+}
+.seven .row .btn-primary:hover{
+	background:rgb(14,14,232);
+}
+
+.seven .row .ss img{
+	float:right;
+	margin-top:-80px;
+	
+}
+
+
+
+
+
+
+
+
+.eight{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+.eight h1{
+	color:#113355;
+	font-size:16px;
+	margin-left:14px;
+	margin-bottom:20px;
+}
+.eight h1 svg path{
+	fill: rgb(22, 82, 240);
+	}
+.eight .list-group li{
+	border:none;
+	line-height:0.8;
+}
+
+.eight .list-group li a{
+	color:#113355;
+	font-size:16px;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+	.navbar{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.navbar .navbar-nav li{
+	
+	padding-left:10px;
+}
+.navbar .navbar-nav .dropdown {
+	overflow-x:hidden;
+}
+.navbar .navbar-nav .dropdown li{
+	text-align:justify;
+	margin-left:300px;
+}
+.navbar .navbar-nav .last li{
+	margin-left:0px;
+	
+} 
+.navbar .navbar-nav .last .dropdown-menu{
+	background:white;
+	border-radius:0px;
+}
+.navbar .navbar-nav .last .dropdown-menu li{
+	border:none;
+}
+.navbar .navbar-nav .dropdown h4{
+}
+.navbar .navbar-nav li a{
+	color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+	font-weight:bold;
+    text-decoration: none;
+}
+
+
+.navbar .navbar-right li a{
+    text-decoration:none;
+	color:white;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.navbar .navbar-nav .up{
+	margin-top:11px;
+    border-radius: 3px;
+    background: rgb(5, 177, 105);
+}
+
+.navbar .navbar-right .sign {
+	display:none;
+}
+
+
+.navbar .navbar-right .sign a{
+    justify-content: center;
+	padding: 10px 10px;
+    transition:0.2s;
+	padding-right:20px;
+	
+}
+
+
+.navbar .dropdown-menu.columns-2 h4{
+	font-size:14px;
+	color:rgba(17,51,83,0.6);
+	margin-left:335px;
+	font-weight:bold;
+	
+}
+
+.navbar .dropdown-menu.columns-2 hr{
+	border:1px solid rgba(210,205,205,0.3);
+	width:798px;
+	margin-top:10px;
+}
+.navbar .dropdown-menu.columns-2 h5{
+	font-size:16px;
+	color:rgba(17,51,83,0.6);
+	cursor:pointer;
+	padding-bottom:9px;
+	margin-top:20px;
+	
+}
+.navbar .dropdown-menu.columns-2 li a{
+	text-decoration:none;
+	font-size:17px;
+	color: rgb(5, 15, 25);
+	line-height:2.5;
+}
+.dropdown-menu.columns-2 li a:hover{
+    color: rgb(5, 15, 25);
+}
+.under-write{
+	margin-left:60px;
+	margin-top:-15px;
+	font-size:15px;
+	color:#B8B1B1;
+	font-weight:normal;
+}
+.dropdown .dropdown-menu{
+	border-radius:8px;
+}
+.dropdown .dropdown-menu li a{
+	
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgb(5, 15, 25);
+	
+}
+.dropdown .dropdown-menu li a:hover{
+	background:none;
+	color: rgb(5, 15, 25);
+}
+
+
+
+
+.first .form-horizontal label{
+	position: relative;
+    width: 93.5%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(5, 177, 105);
+    margin: 12px;
+	margin-left:17px;
+    border-radius: 4px;
+    transition: all 80ms ease-in-out 0s;
+   height:65px;
+    padding: 8px;
+	font-weight:normal;
+	font-family: sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 177, 105);
+    border-image: initial;
+	transition:0.2s
+	
+}
+
+.first .form-horizontal input {
+    margin-right: 0px;
+    
+	
+    -webkit-appearance: none;
+    font-family: Graphik, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(11, 52, 102);
+    flex: 1 1 0%;
+	width:100%;
+	height:60px;
+    padding: 16px 16px 13px;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+}
+.first {
+	
+	margin-top:-20px;
+	padding-top:30px;
+	line-height: 52px;
+	padding-bottom:0px;
+	margin-top:75px;
+}
+.first .tab{
+	position:relative;
+	margin-top:0px;
+	padding:0px;
+	
+}
+.second{
+	margin-top:-20px;
+	padding-top:0px;
+}
+.second .row{
+	padding:40px;
+}
+.second .row .list-group{
+	margin-top:10px;
+}
+.second .row .list-group img{
+	margin-left:-10px;
+}
+.second .row .list-group p{
+	float:right;
+	font-size: 12px;
+    
+    color: rgb(5, 177, 105);
+    font-weight: 500;
+	margin-top:10px;
+	
+}
+
+.second .row .list-group button{
+	font-size:18px;
+	color: rgb(5, 15, 25);
+	line-height: 2.5;
+	font-weight: 500;
+	border:none;
+	transition:0.5s;
+}
+.second .row .list-group button span{
+	font-size:14px;
+	margin-left:10px;
+	color:#8899AA;
+}	
+
+
+.third .list-group button{
+	border:none;
+	cursor: -webkit-grab; cursor: grab;
+
+}
+.third .row h1{
+	font-size:38px;
+	color:#0F3256;
+}
+.third .row p{
+	font-size:14px;
+	color:#90A1B8;
+}
+.third .list-group  img{
+	margin-top:20px;
+	margin-left:-60px;
+   z-index: 1;
+   box-sizing: border-box;
+	
+	
+	transition:0.5s
+}
+.third .list-group button span{
+	font-size:20px;
+	margin-left:0px;
+	text-align:justify;
+	margin-top:40px;
+	color:#000000;
+	font-weight: 500;
+		
+}
+.third .list-group button p{
+	margin-left:0px;
+	font-size:16px;
+	margin-top:15px;
+	line-height: 1.6;
+    color: rgb(131, 143, 160);
+  
+}
+.seven{
+	background-color: rgb(233, 246, 255);
+	margin-top:80px;
+}
+.seven .row{
+
+}
+.seven .row h1{
+	font-size:30px;
+	color:#050F19;
+	
+}
+.seven .row .ff{
+  padding-left:70px;
+  padding-top:0px;
+  z-index:100;
+  
+}
+.seven .row p{
+	font-size:14px;
+	color:#050F19;
+}
+
+
+.seven .row .ss img{
+	float:right;
+	margin-top:-440px;
+	
+}
+.eight{
+	padding-top:20px;
+	padding-bottom:80px;
+}
+.navbar .navbar-right .signn{
+	display:block;
+	float:right;
+	position:absolute;
+	right:0;
+	margin-right:72px;
+	top:0;
+	margin-top:25px;
+cursor: pointer;
+ background-color: none;
+    
+	
+}
+.navbar .navbar-right .signn a{
+	font-size: 12px;
+	color:white; transition: all 80ms ease-in-out 0s;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+	padding:2px 4px;
+}
+.navbar-default.scrolled .nav .signn{
+	 border-radius: 4px;
+    background: rgb(5, 177, 105);
+	padding:0px 0px;
+	
+}
+
+.navbar-default.scrolled .nav .signn:hover{
+	background: rgba(15, 150, 105,1);
+	color: rgb(255, 255, 255);
+    transition: 0.2s;
+	border-radius: 4px;
+	padding:0px 0px;
+	
+	
+}
+.navbar-default.scrolled .nav .signn a{
+	color:#ffff;
+}
+.navbar-default.scrolled .nav .signn a:hover{
+	color:#C1C0B9;
+}
+}
+@media (max-width: 368px){
+	.navbar .dropdown-menu.columns-2{
+		padding-left:-20px;
+	}
+
+.navbar .dropdown-menu.columns-2 h4{
+	font-size:14px;
+	color:rgba(17,51,83,0.6);
+	margin-left:335px;
+	font-weight:bold;
+	
+}
+
+.navbar .dropdown-menu.columns-2 hr{
+	border:1px solid rgba(210,205,205,0.3);
+	width:798px;
+	margin-top:10px;
+}
+.navbar .dropdown-menu.columns-2 h5{
+	font-size:13px;
+	color:rgba(17,51,83,0.6);
+	cursor:pointer;
+	padding-bottom:9px;
+	margin-top:20px;
+	
+}
+.navbar .dropdown-menu.columns-2 li a{
+	text-decoration:none;
+	font-size:14px;
+	color: rgb(5, 15, 25);
+	line-height:2.5;
+}
+.navbar .dropdown-menu.columns-2 li a p{
+	font-size:10px;
+}
+	.first h1{
+	
+    font-size: 33px;
+    font-weight: 800;
+}
+.first p{
+  
+font-size: 14px;
+}
+.third .row h1{
+	font-size:33px;
+}
+.furth .row h1{
+	font-size:33px;
+}
+.six  h1{
+	font-size:33px;
+}
+
+}
+
+
+
+
